@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    driver-class-name: org.gjt.mm.mysql.Driver
+    username: root
+    password: root
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+        
+server:
+  servlet:
+    context-path: /Test
+
+
+  port: 8080
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port} /eureka/    
