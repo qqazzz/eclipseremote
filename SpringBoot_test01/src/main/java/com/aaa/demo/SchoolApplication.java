@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @SpringBootApplication
 @MapperScan("com.aaa")
 public class SchoolApplication {
-		
+		//hello
 	public static void main(String[] args) {
 		SpringApplication.run(SchoolApplication.class, args);
 	}
