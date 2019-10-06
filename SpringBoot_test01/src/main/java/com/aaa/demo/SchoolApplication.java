@@ -4,11 +4,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
-<<<<<<< HEAD
-//hello test 
-=======
-//qqazzz
->>>>>>> branch 'master' of https://github.com/qqazzz/eclipseremote.git
+//hello test  +qqqazzz
 @SpringBootApplication
 @MapperScan("com.aaa")
 public class SchoolApplication {
